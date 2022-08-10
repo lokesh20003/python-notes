@@ -16,3 +16,13 @@ change(lis)
 print(lis)
 --------------------------------------
 ![b758f7f597a36ab4a226d21f5348a717](https://user-images.githubusercontent.com/101422337/180610718-faaaf12b-ed25-4446-af36-2eff0d7e062d.jpg)
+
+count = 1 
+  
+def doThis():
+  
+    global count  // now it will work on global count variable and update count . Can acces any wherever in program
+
+  
+    for i in (1, 2, 3): 
+        count += 1
