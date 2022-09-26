@@ -26,3 +26,21 @@ def doThis():
   
     for i in (1, 2, 3): 
         count += 1
+######################################################
+question : 
+def print_formatted(i):
+    for k in range(1,i+1):
+        print("%2d"%(k),end="")
+        st = str(oct(k))
+    
+        print("%3s"%(st[2:]),end="")
+        st1 = str(hex(k))            
+        print("%3s"%(st1[2:].upper()),end="")
+        st2 = str(bin(k))
+        print("%3s"%(st2[2:]),end="\n")
+
+
+
+if __name__ == '__main__':
+    n = int(input())
+    print_formatted(n)
